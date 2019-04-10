@@ -77,8 +77,6 @@ public class ZelixRetracer {
                 replace("\r", "\n").
                 split("\n");
 
-        System.out.println("obf lines: " + obfLines.length);
-
         StringBuilder retraced = new StringBuilder();
 
         for (String ln : obfLines) {
