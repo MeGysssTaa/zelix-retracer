@@ -19,7 +19,7 @@ This is not a complete substitution for Zelix KlassMaster™'s official retrace 
 
 ## Usage
 
-Navigate to the [releases page](lnk) and download the latest release. Then run the JAR in CLI (bash/cmd), specifying one program argument — path to the ZKM remappings file you want to use for retracing:
+Navigate to the [releases page](https://github.com/MeGysssTaa/zelix-retracer/releases) and download the latest release. Then run the JAR in CLI (bash/cmd), specifying one program argument — path to the ZKM remappings file you want to use for retracing:
 
 ```bash
 java -jar zelix-retracer-1.0.0.jar ~/my-projects/proj2/obf/zkm-mappings.txt
@@ -43,4 +43,4 @@ Then you will be prompted to enter the stacktrace you want to retrace. Just copy
 
 ## License
 
-[Apache License 2.0](lnk)
+[Apache License 2.0](https://github.com/MeGysssTaa/zelix-retracer/blob/master/LICENSE)
